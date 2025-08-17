@@ -8,7 +8,9 @@
 }
 
 body {
-  background-color: #333;
+  background: linear-gradient(to bottom, #000000, #1a1a1a, #333333, #4d4d4d);
+  height: 100%;
+min-height: 100vh;
 }
 
 button {
@@ -55,7 +57,7 @@ select {
     
   max-width: 450px;
   margin: 10rem auto ;
-  background-color: #fdfdfd;
+  background-color: #fff;
   padding: 1.5rem;
   border-radius: 15px;
 }
